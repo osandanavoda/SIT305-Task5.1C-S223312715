@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SecondNewsFragment">
+
+
+    <ImageView
+        android:layout_width="393dp"
+        android:layout_height="282dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/qantas" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nA Qantas has confirmed that a technology issue was to blame for a glitch affecting its app that allowed customers to view the personal details of other travellers in an apparent privacy breach.
+
+" />
+
+     <ImageButton
+        android:id="@+id/RelatedStory2"
+        android:layout_width="162dp"
+        android:layout_height="147dp"
+        android:layout_gravity="bottom|left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_gravity="bottom|left"
+        android:fontFamily="sans-serif-black"
+        android:text="Related Story:" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="147dp"
+        android:layout_gravity="bottom|right"
+        android:fontFamily="sans-serif"
+        android:text="\n\nBonza staff queue at Centrelink for emergency payments as airline administrators confirm April wages will not be paid."
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/Back2"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:src="@android:drawable/ic_menu_revert" />
+
+
+</FrameLayout>
